@@ -6,9 +6,6 @@ let isFilter = {value:false}
 let userFilterId
 
 
-
-
-
 const getPosts = async () => {
     try {
         await fetch('https://jsonplaceholder.typicode.com/posts')
@@ -35,9 +32,6 @@ const selectUser = id => {
     return isFilter = {value: true, userId} 
        
 }
-
-
-
 
 
 
@@ -85,7 +79,7 @@ const createdPost =  post => {
 
     body.innerText = post.body
     title.innerText = post.title
-    user.innerText = ` user ${post.userId}`
+    user.innerText = `USER ${post.userId}`
 
 
 

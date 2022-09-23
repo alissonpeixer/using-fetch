@@ -22,7 +22,7 @@ const createdPost =  post => {
     
     contents.setAttribute('class', 'contents')
 
-    imgUser.setAttribute('src', 'assets/img-profile.png')
+    imgUser.setAttribute('src', 'https://alissonpeixer.github.io/using-fetch/assets/img-profile.png')
 
     body.innerText = post.body
     title.innerText = post.title

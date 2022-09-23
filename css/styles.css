@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #D6D4E2;
+}
+
+#container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#comentarios{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#comentario{
+    display: flex;
+    padding: 10px;
+    background: white;
+    border-radius: 32px;
+
+    margin: 10px 0;
+}
+
+#comentario img{
+    padding: 10px;
+}
+
+#userPic {
+    width: 100px;
+    height: 100px;
+}
+
+#title{
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#body{
+    width: 100%;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

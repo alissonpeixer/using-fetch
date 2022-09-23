@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
 
@@ -11,13 +12,33 @@
 
     <title>Comentários</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-
     <main id="container">
+        <div id="filter">
+         
+                <label for="userId">Filter user</label>
+                <select name="userId" id="userId" onchange="selectUser(this)">
+                    <option>TODOS</option>
+                    <option  value="1">User 1</option>
+                    <option  value="2">User 2</option>
+                    <option  value="3">User 3</option>
+                    <option  value="4">User 4</option>
+                    <option  value="5">User 5</option>
+                    <option  value="6">User 6</option>
+                    <option  value="7">User 7</option>
+                    <option  value="8">User 8</option>
+                    <option  value="9">User 9</option>
+                    <option  value="10">User 10</option>
+                </select>
+
+            
+        </div>
 
         <div id="comentarios">
 
@@ -36,9 +57,10 @@
             </div> -->
         </div>
 
-    
+
     </main>
-    
+
     <script src="js/main.js"></script>
 </body>
+
 </html>

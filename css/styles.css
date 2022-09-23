@@ -12,6 +12,8 @@ body{
 #container{
     margin-top: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -23,35 +25,41 @@ body{
 
 #comentario{
     display: flex;
-    padding: 10px;
     background: white;
     border-radius: 32px;
-
     margin: 10px 0;
+
+    padding: 6px 20px;
 }
 
-#comentario img{
-    padding: 10px;
-}
 
-#userPic {
+
+#userInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
-    height: 100px;
+
+    
+    font-weight: 600;
+    font-size: 1.4rem;
 }
 
 #title{
     font-weight: 700;
-    margin-bottom: 4px;
     font-size: 20px;
-    text-transform: capitalize;
+    width: 40px;
+
 }
 
 #body{
-    width: 100%;
+    margin: 4px 0;
 }
 
 .contents{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex: 1;
 }
+
+
+
+

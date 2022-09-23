@@ -7,7 +7,7 @@ Stacks used<br>
 
 ---
 ### This project
-Created dynamic HTML items using search request.
+Created dynamic HTML items using fetch.
 <br><br>
 [Project live demo](https://alissonpeixer.github.io/using-fetch)
 

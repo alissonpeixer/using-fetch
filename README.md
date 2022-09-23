@@ -3,7 +3,10 @@
 ---
 
 Stacks used<br>
+
 ![My Skills](https://skillicons.dev/icons?i=js,html,css)
+
+[API used in project](https://jsonplaceholder.typicode.com)
 
 ---
 ### This project

@@ -20,7 +20,8 @@ Created dynamic HTML items using fetch.
 ##### This projet is created for to [Cordar.Me](https://codar.me/) course. 
 ---
 ###### screenshot this project
-![image](https://user-images.githubusercontent.com/48291580/192028672-b4801269-775b-46db-a7d7-0070ec70b519.png)
+![image](https://user-images.githubusercontent.com/48291580/192167293-4b09d580-e970-4bdc-9884-3f5509f8f5f8.png)
+
 
 ---
 

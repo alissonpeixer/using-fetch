@@ -1,10 +1,13 @@
 const posts = document.getElementById('comentarios')
 const filter = document.getElementById('submit')
 
+const userFilter = document.getElementById('userId')
 
 let isFilter = {value:false}
 let userFilterId
 
+
+const unique = (value, index, self) => self.indexOf(value) === index
 
 const getPosts = async () => {
     try {
@@ -17,6 +20,27 @@ const getPosts = async () => {
 }
 
 getPosts()
+
+
+const createSelectList = posts =>{
+    const usersArray = []
+    posts.map(user => usersArray.push(user.userId))
+    const users = usersArray.filter(unique)
+
+   
+
+    users.map(user => {
+        const opition = document.createElement('option')
+
+        console.log(user)
+        opition.setAttribute('value',user),
+        opition.innerText = `User ${user}`
+        userFilter.appendChild(opition)
+        
+    })
+  
+    
+}
 
 
 const selectUser = id => {
@@ -36,7 +60,7 @@ const selectUser = id => {
 
 
 const postFilter = posts =>{
-   
+    createSelectList(posts)
     if(isFilter.value){
         const postList = document.getElementById('comentarios')
         postList.innerHTML = ''
